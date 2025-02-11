@@ -4,3 +4,4 @@ This Jupyter Notebook encompassess a series of scripts written in Python by Dani
 
 The goal of these scripts is to provide researchers some relevant clinical data that are extracted in a meaningful way form the data that is already available in PPMI. All the necessary input datasets can be obtained [here](https://ida.loni.usc.edu/pages/access/studyData.jsp?project=PPMI) after applying for registration for access to the PPMI data. All outputs from the analyses were removed to comply with privacy and data sharing principles. Some of these scripts were developed with the help of AI tools such as ChatGPT 4o.
 
+What this notebook overs: (1) LEDD and medication-specific LEDD calculations, (2) levodopa challenge responsiveness, (3) medical conditions identifier and (4) medication usage identifier
