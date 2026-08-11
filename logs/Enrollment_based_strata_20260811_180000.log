@@ -1,0 +1,137 @@
+==============================================================================================================
+COHORT_DEFINITION x PROTOCOL_ERA (ever-enrolled)
+==============================================================================================================
+PROTOCOL_ERA         EarlyImaging_AV133  PPMI1_GeneticProdromal  PPMI1_Original  PPMI2_AM2  PPMI2_AM3  PPMI2_AM4  PPMI2_AM_unknown
+COHORT_DEFINITION                                                                                                                 
+Healthy Control                       0                       0             196         75         64          1                 0
+Parkinson's Disease                  16                     280             423        502        231        242                 1
+Prodromal                             0                     494               0        645       1079        739                 0
+SWEDD                                 0                       0              64          0          0          0                 0
+
+==============================================================================================================
+STUDY_ARM x PROTOCOL_ERA (ever-enrolled)
+==============================================================================================================
+PROTOCOL_ERA                    EarlyImaging_AV133  PPMI1_GeneticProdromal  PPMI1_Original  PPMI2_AM2  PPMI2_AM3  PPMI2_AM4  PPMI2_AM_unknown
+STUDY_ARM                                                                                                                                    
+HC                                               0                       0             196         75         64          1                 0
+PD_GBA                                           0                      85               0          5          1          1                 0
+PD_LRRK2                                         0                     166               0          8          4          7                 0
+PD_MultiGenetic                                  0                       1               0          1          0          1                 0
+PD_Normosmic                                     0                       0               0          0          0        217                 0
+PD_Normosmic_LRRK2                               0                       0               0          0          0          7                 0
+PD_RareGenetic                                   0                       0               0         12          4          7                 0
+PD_SNCA                                          0                      28               0          3          8          1                 0
+PD_Sporadic                                     16                       0             423        473        214          1                 1
+Prodromal_ArmUnrecorded                          0                       2               0          1          0          0                 0
+Prodromal_GBA                                    0                     189               0          0          0          0                 0
+Prodromal_GeneticPlusPhenotype                   0                       0               0          2          1          0                 0
+Prodromal_Hyposmia                               0                      26               0        386        853        660                 0
+Prodromal_Hyposmia_RBD                           0                       0               0         55         27         74                 0
+Prodromal_LRRK2                                  0                     229               0          0          2          0                 0
+Prodromal_RBD                                    0                      39               0        200        195          1                 0
+Prodromal_RareGenetic                            0                       0               0          0          0          2                 0
+Prodromal_SNCA                                   0                       9               0          1          1          2                 0
+SWEDD                                            0                       0              64          0          0          0                 0
+
+==============================================================================================================
+Two-level counts: HARMONIZED_COHORT x COHORT_STRATUM (ever-enrolled)
+==============================================================================================================
+                  HARMONIZED_COHORT                                 COHORT_STRATUM   n
+                       HC_DATnormal                              PPMI1_Original|HC 196
+                       HC_DATnormal                                   PPMI2_AM2|HC  75
+                       HC_DATnormal                                   PPMI2_AM3|HC  64
+              HC_UPSIT_SAAgated_AM4                                   PPMI2_AM4|HC   1
+         PD_DeNovoSporadic_DATgated                          PPMI2_AM2|PD_Sporadic 473
+         PD_DeNovoSporadic_DATgated                     PPMI1_Original|PD_Sporadic 423
+         PD_DeNovoSporadic_DATgated                          PPMI2_AM3|PD_Sporadic 214
+         PD_DeNovoSporadic_DATgated                 EarlyImaging_AV133|PD_Sporadic  16
+     PD_DeNovoSporadic_SAAgated_AM4                          PPMI2_AM4|PD_Sporadic   1
+      PD_Genetic_PPMI1_unrestricted                PPMI1_GeneticProdromal|PD_LRRK2 166
+      PD_Genetic_PPMI1_unrestricted                  PPMI1_GeneticProdromal|PD_GBA  85
+      PD_Genetic_PPMI1_unrestricted                 PPMI1_GeneticProdromal|PD_SNCA  28
+      PD_Genetic_PPMI1_unrestricted         PPMI1_GeneticProdromal|PD_MultiGenetic   1
+            PD_Genetic_SAAgated_AM4                             PPMI2_AM4|PD_LRRK2   7
+            PD_Genetic_SAAgated_AM4                       PPMI2_AM4|PD_RareGenetic   7
+            PD_Genetic_SAAgated_AM4                               PPMI2_AM4|PD_GBA   1
+            PD_Genetic_SAAgated_AM4                      PPMI2_AM4|PD_MultiGenetic   1
+            PD_Genetic_SAAgated_AM4                              PPMI2_AM4|PD_SNCA   1
+        PD_LRRK2GBA_Recent_DATgated                             PPMI2_AM2|PD_LRRK2   8
+        PD_LRRK2GBA_Recent_DATgated                               PPMI2_AM2|PD_GBA   5
+        PD_LRRK2GBA_Recent_DATgated                             PPMI2_AM3|PD_LRRK2   4
+        PD_LRRK2GBA_Recent_DATgated                      PPMI2_AM2|PD_MultiGenetic   1
+        PD_LRRK2GBA_Recent_DATgated                               PPMI2_AM3|PD_GBA   1
+                   PD_Normosmic_AM4                         PPMI2_AM4|PD_Normosmic 217
+                   PD_Normosmic_AM4                   PPMI2_AM4|PD_Normosmic_LRRK2   7
+               PD_SNCARare_DATgated                       PPMI2_AM2|PD_RareGenetic  12
+               PD_SNCARare_DATgated                              PPMI2_AM3|PD_SNCA   8
+               PD_SNCARare_DATgated                       PPMI2_AM3|PD_RareGenetic   4
+               PD_SNCARare_DATgated                              PPMI2_AM2|PD_SNCA   3
+     Prodromal_GeneticCarrier_PPMI1         PPMI1_GeneticProdromal|Prodromal_LRRK2 229
+     Prodromal_GeneticCarrier_PPMI1           PPMI1_GeneticProdromal|Prodromal_GBA 189
+     Prodromal_GeneticCarrier_PPMI1          PPMI1_GeneticProdromal|Prodromal_SNCA   9
+           Prodromal_Genetic_DATera       PPMI2_AM2|Prodromal_GeneticPlusPhenotype   2
+           Prodromal_Genetic_DATera                      PPMI2_AM3|Prodromal_LRRK2   2
+           Prodromal_Genetic_DATera                       PPMI2_AM2|Prodromal_SNCA   1
+           Prodromal_Genetic_DATera       PPMI2_AM3|Prodromal_GeneticPlusPhenotype   1
+           Prodromal_Genetic_DATera                       PPMI2_AM3|Prodromal_SNCA   1
+       Prodromal_HyposmiaRBD_DATera               PPMI2_AM2|Prodromal_Hyposmia_RBD  55
+       Prodromal_HyposmiaRBD_DATera               PPMI2_AM3|Prodromal_Hyposmia_RBD  27
+          Prodromal_Hyposmia_DATera                   PPMI2_AM3|Prodromal_Hyposmia 853
+          Prodromal_Hyposmia_DATera                   PPMI2_AM2|Prodromal_Hyposmia 386
+     Prodromal_Pilot_HPSM_RBD_PPMI1           PPMI1_GeneticProdromal|Prodromal_RBD  39
+     Prodromal_Pilot_HPSM_RBD_PPMI1      PPMI1_GeneticProdromal|Prodromal_Hyposmia  26
+               Prodromal_RBD_DATera                        PPMI2_AM2|Prodromal_RBD 200
+               Prodromal_RBD_DATera                        PPMI2_AM3|Prodromal_RBD 195
+       Prodromal_UPSIT_SAAgated_AM4                   PPMI2_AM4|Prodromal_Hyposmia 660
+       Prodromal_UPSIT_SAAgated_AM4               PPMI2_AM4|Prodromal_Hyposmia_RBD  74
+       Prodromal_UPSIT_SAAgated_AM4                PPMI2_AM4|Prodromal_RareGenetic   2
+       Prodromal_UPSIT_SAAgated_AM4                       PPMI2_AM4|Prodromal_SNCA   2
+       Prodromal_UPSIT_SAAgated_AM4                        PPMI2_AM4|Prodromal_RBD   1
+                        SWEDD_PPMI1                           PPMI1_Original|SWEDD  64
+Unclassified_PPMI1_GeneticProdromal PPMI1_GeneticProdromal|Prodromal_ArmUnrecorded   2
+             Unclassified_PPMI2_AM2              PPMI2_AM2|Prodromal_ArmUnrecorded   1
+           Unresolved_PPMI2_pending                   PPMI2_AM_unknown|PD_Sporadic   1
+
+==============================================================================================================
+Mapping audit: HARMONIZED_COHORT x PROTOCOL_ERA (ever-enrolled) - verify merges are as intended
+==============================================================================================================
+PROTOCOL_ERA                         EarlyImaging_AV133  PPMI1_GeneticProdromal  PPMI1_Original  PPMI2_AM2  PPMI2_AM3  PPMI2_AM4  PPMI2_AM_unknown
+HARMONIZED_COHORT                                                                                                                                 
+HC_DATnormal                                          0                       0             196         75         64          0                 0
+HC_UPSIT_SAAgated_AM4                                 0                       0               0          0          0          1                 0
+PD_DeNovoSporadic_DATgated                           16                       0             423        473        214          0                 0
+PD_DeNovoSporadic_SAAgated_AM4                        0                       0               0          0          0          1                 0
+PD_Genetic_PPMI1_unrestricted                         0                     280               0          0          0          0                 0
+PD_Genetic_SAAgated_AM4                               0                       0               0          0          0         17                 0
+PD_LRRK2GBA_Recent_DATgated                           0                       0               0         14          5          0                 0
+PD_Normosmic_AM4                                      0                       0               0          0          0        224                 0
+PD_SNCARare_DATgated                                  0                       0               0         15         12          0                 0
+Prodromal_GeneticCarrier_PPMI1                        0                     427               0          0          0          0                 0
+Prodromal_Genetic_DATera                              0                       0               0          3          4          0                 0
+Prodromal_HyposmiaRBD_DATera                          0                       0               0         55         27          0                 0
+Prodromal_Hyposmia_DATera                             0                       0               0        386        853          0                 0
+Prodromal_Pilot_HPSM_RBD_PPMI1                        0                      65               0          0          0          0                 0
+Prodromal_RBD_DATera                                  0                       0               0        200        195          0                 0
+Prodromal_UPSIT_SAAgated_AM4                          0                       0               0          0          0        739                 0
+SWEDD_PPMI1                                           0                       0              64          0          0          0                 0
+Unclassified_PPMI1_GeneticProdromal                   0                       2               0          0          0          0                 0
+Unclassified_PPMI2_AM2                                0                       0               0          1          0          0                 0
+Unresolved_PPMI2_pending                              0                       0               0          0          0          0                 1
+
+==============================================================================================================
+Within-group heterogeneity check: SAA_AT_ENTRY positivity by HARMONIZED_COHORT x era (merged groups only)
+==============================================================================================================
+                                             n  pos_pct
+HARMONIZED_COHORT          PROTOCOL_ERA                
+HC_DATnormal               PPMI1_Original  177      5.1
+                           PPMI2_AM2        64     15.6
+                           PPMI2_AM3        56      8.9
+PD_DeNovoSporadic_DATgated PPMI1_Original  402     93.3
+                           PPMI2_AM2       432     90.3
+                           PPMI2_AM3       194     90.2
+Prodromal_Hyposmia_DATera  PPMI2_AM2       342     57.6
+                           PPMI2_AM3       754     69.8
+Prodromal_RBD_DATera       PPMI2_AM2       177     73.4
+                           PPMI2_AM3       156     70.5
+
+Saved: output/Participant_Status_HarmonizedCohorts_11Aug2026.csv
