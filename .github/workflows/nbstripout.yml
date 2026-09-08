@@ -1,0 +1,25 @@
+name: Check Notebooks Output
+
+on:
+  pull_request:
+    paths:
+      - 'code/*.ipynb'
+  push:
+    branches:
+      - main
+    paths:
+      - 'code/*.ipynb'
+  workflow_dispatch:
+
+jobs:
+  check-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+      
+      - name: Check notebooks are stripped
+        uses: kynan/nbstripout@main
+        with:
+          paths: 'code/*.ipynb'
+          python-version: '3.x'
