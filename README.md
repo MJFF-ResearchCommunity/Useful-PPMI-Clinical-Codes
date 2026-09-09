@@ -13,3 +13,14 @@ The goal of these scripts is to provide researchers some relevant clinical data 
 What this notebook covers: (1) LEDD and medication-specific LEDD calculations, (2) levodopa challenge responsiveness, (3) medical conditions identifier, (4) medication usage identifier, (5) longitudinal DBS evolution, (6) longitudinal deceased status, (7) the creation of a longitudinal and integrated MDS-UPDRS scores alongside minimal clinically important differences analyses and (8) a script that harmonizes PPMI participants into cohorts based on the enrollment criteria and protocol version under which they were enrolled.
 
 Other analyses are also planned to be added. 
+
+## Contributing
+
+This repo uses `nbstripout` to keep notebook outputs out of version control. After cloning, set it up once:
+
+​```bash
+pip install nbstripout
+nbstripout --install --attributes .gitattributes
+​```
+
+A GitHub Actions check will also fail your PR if any notebook still has outputs, as a backstop.
